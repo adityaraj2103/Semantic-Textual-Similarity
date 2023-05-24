@@ -7,7 +7,7 @@ The model used in this project is **'multi-qa-mpnet-base-dot-v1'**. It is a sent
 
 1. Clone the repository:
 ```
-git clone https://github.com/your_username/your_repository.git
+git clone [https://github.com/your_username/your_repository.git](https://github.com/adityaraj2103/Semantic-Textual-Similarity.git)
 ```
 
 2. Install the required dependencies:

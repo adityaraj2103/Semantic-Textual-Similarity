@@ -1,0 +1,33 @@
+<!doctype html>
+            <html>
+                <head>
+                    <title>Upload a PDF File and Queries</title>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        header {
+                            background-color: #4CAF50;
+                            color: white;
+                            padding: 20px;
+                            text-align: center;
+                        }
+                        form {
+                            margin: 20px auto;
+                            width: 300px;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <header>
+                        <h1>Upload a PDF File and Queries</h1>
+                    </header>
+                    <form action="/" method=post enctype=multipart/form-data>
+                      <input type=file name=file><br><br>
+                      <textarea name="sentences" rows="5" cols="50" required></textarea>
+                      <input type=submit value=Upload>
+                    </form>
+                </body>
+            </html> 

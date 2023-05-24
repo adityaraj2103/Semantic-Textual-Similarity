@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simialar Sentences</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: hwb(106 30% 9%);
+        }
+    </style>
+</head>
+<body>
+    <h1>Sentences Simialar to the Queries</h1>
+    <table>
+        <tr>
+            <th>Query</th>
+            <th>Simialar Sentences</th>
+        </tr>
+        {% for key, value in dictionary.items() %}
+        <tr>
+            <td>{{ key }}</td>
+            <td>
+                {% for val in value %}
+                    {{ val }}<br>
+                {% endfor %}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

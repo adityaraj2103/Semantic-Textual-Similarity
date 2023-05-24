@@ -20,7 +20,9 @@ pip install pyPDF2
 ## Usage
 
 1. Run the Flask application:
-```python app.py```
+```
+python app.py
+```
 
 2. Access the application in your web browser:
 http://localhost:5000/
@@ -35,14 +37,14 @@ http://localhost:5000/
 ## Directory Structure
 
 The project directory should have the following structure:
-
+```
 ├── app.py
 ├── templates
 │ ├── index.html
 │ └── result.html
 ├── simple.py
 └── README.md
-
+```
 
 - `app.py`: The Flask application file that handles the web routes and form submission.
 - `templates`: Directory containing HTML templates for the application.
